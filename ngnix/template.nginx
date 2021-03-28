@@ -6,6 +6,6 @@ server {
     ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
 
     location / {
-        proxy_pass [hostName]:8082;
+        proxy_pass http://[hostName]:8082;
     }
 }
