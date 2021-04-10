@@ -44,25 +44,10 @@ Installation
    ```bash
    sudo docker exec jenkins-blueocean cat /var/jenkins_home/secrets/initialAdminPassword
    ```
-5. (aws ubuntu option)use ssl by proxy nginx
-   ```bash
-   sudo apt install nginx
-   sudo mkdir /etc/ssl/private
-   sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
-   sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
-    ```
-
-   update config
-      ```bash
-   sudo cd nginx
-   sudo chmod +x update-nginx.conf.bash
-   sudo ./update-nginx.conf.bash
-   sudo systemctl restart nginx
-    ```
 5. install "docker" plugin and "Docker Pipeline"
 6. (aws ubuntu option)swap enable
    ```bash
-   sudo dd if=/dev/zero of=/swapfile bs=128M count=8
+   sudo dd if=/dev/zero of=/swapfile bs=128M count=16
    sudo chmod 600 /swapfile
    sudo mkswap /swapfile
    sudo swapon /swapfile
