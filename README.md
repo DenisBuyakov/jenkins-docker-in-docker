@@ -4,6 +4,7 @@ Installation
    (ubuntu option)[Install for ubuntu](https://docs.docker.com/engine/install/ubuntu/)
    ```bash
    sudo apt-get update
+   sudo apt-get upgrade
    sudo apt-get install \
     apt-transport-https \
     ca-certificates \
@@ -21,7 +22,7 @@ Installation
    (ubuntu option) install docker-compose 
     ```bash
    cd docker
-   sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
+   sudo curl -L "https://github.com/docker/compose/releases/download/1.29.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
    sudo chmod +x /usr/bin/docker-compose
     ```
 2. Install [Git](https://git-scm.com/downloads)
@@ -32,10 +33,9 @@ Installation
     ```
 4. install jenkins
    (optional local) use docker env
-   Copy `docker/.env.template` file to `docker/.env`
     ```bash
    cd docker
-   sudo docker network create jenkins
+   cp .env.template .env
    sudo docker-compose up -d
     ```
    Usual Access URL: http://{host-address-here}:8082

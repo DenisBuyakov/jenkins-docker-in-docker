@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.8'
 networks:
     jenkins-network:
         name: jenkins
@@ -25,8 +25,7 @@ services:
             context: ./jenkins
         networks:
             - jenkins-network
-        ports:
-            - 8082:8080
+#            - 8082:8080
 #            - 50002:50000
         volumes:
             - ./jenkins/jenkins-docker-certs:/certs/client
@@ -39,6 +38,8 @@ services:
         build:
             context: ./nginx
         container_name: jenkins-nginx
+        networks:
+            - jenkins-network
         ports:
             - 443:443
         volumes:
