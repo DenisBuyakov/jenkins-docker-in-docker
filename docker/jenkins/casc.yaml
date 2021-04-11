@@ -1,0 +1,107 @@
+credentials:
+  system:
+    domainCredentials:
+      - credentials:
+          - x509ClientCert:
+              clientCertificate: |-
+                -----BEGIN CERTIFICATE-----
+                1IIE2zCCAsOgAwIBAgIUNp8oeyGJessIu7m7dJTHoYfQYrwwDQYJKoZIhvcNAQEL
+                BQAwGTEXMBUGA1UEAwwOZG9ja2VyOmRpbmQgQ0EwHhcNMjEwNDExMTM1NDI1WhcN
+                MjMwNzE1MTM1NDI1WjAdMRswGQYDVQQDDBJkb2NrZXI6ZGluZCBjbGllbnQwggIi
+                MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQC8Q1+znTOvPg0MjFfux8Kwqhpk
+                2lSlxDAvsid+KyDEP+nYcVVkEBfwJXF4RYN7MA1nCsjBa/uJf/anA0m9Cs3ehO+c
+                ei7gKBUHDn0lHuw31k8xTP38dTyQfd+NivdXn2+o+4p4S4bmW/1ZNVq8rFS+YxkQ
+                w01ACrNsDmX6jjnveh9XBZHy5WJgnbOoGgNU9RXpUHLst/uQckoHKll6bAF8fAXa
+                W+rPlo/gtv0y+ep/D1pQ7S0HhkeEJaggl6bnRW67yWhAbiNL9HrAZYjFsxzOTMC0
+                trkd8EQdfK4Ls3KD+Rhx/8+qinzK67+pj7lumPcH6q85clo/GVy5ImE8GSF+nEKy
+                A46CvOIXngLzke8vzZfYn47z5cdH2v91O5qdzBUG87E+sCBXPxM7axMGYujWTAqe
+                m51IU/bDT0rW1IrvjJWoa/MDazWRzgkH6KGNIxLz3OooJHe3Ka0Upftznk8C7H9V
+                TTbwIptoSQSzhAhk3a6Ju4KvjeGrG3LxqZd7MYhHOPlucxzwddutil962QHDxIPk
+                cv4+UB/9pwa7KnenpLXyOgYLEOf6hfekMVDGv+NDAJva1VaDP1ndSIlogeN0VfKn
+                S/Jnof6sC8yDZdYH4JMOD/Y0UOgSWakJMwFY2Cv0oajer0t/jB8RgOP5l7WBut7Q
+                c5iIsBIvCwNW+eCBRQIDAQABoxcwFTATBgNVHSUEDDAKBggrBgEFBQcDAjANBgkq
+                hkiG9w0BAQsFAAOCAgEAH0nsj+r9sYOTPNsWTySaa+jeuyUyjpZ3hiyFEYhJvFfy
+                b9Mdqxks1id8vjnduu4eYuHHu4F9i/0MznnWDIIqu3oCq3uHgkjokswEcG9LHwgL
+                iG1kLFAahauCZkxcPBKG3oXn/yJRSka7yppJq4dJyn2lRT1zyAP4W2Ld8aIfBSmD
+                Zoo5gKgKeijl385E4VJ6R+t/XX1pnx0ta3SyS5XFJsbNqk2YfGppjzGGIWe3UxWU
+                j+b20ROD9YwF/rZJxqv7G1jf6yI4rISCJyVKrQ+2mA2H53DBIUlml5EPLiwOTxgk
+                Wp6OXLDzZswGCF0wD1/MRV4bwOEebd8N02j73cBj59/Aq0R+reVQOPT0oB2btBAp
+                GkjGR6VTpm8USaD5dzr+HHinnJ4DzO9kkHp8abVCUc6upQlc0Sewd2KXsMdeGOQm
+                9daUtOUF67ABV2q75hv4LGZ2xonzvSTSJ4VslYq9qAeDZEFeGHEY7UdP/JSG4LKu
+                oNxsvnSWOrFjmUu76+NY1/98LaFYnY9L+SJSkPASlvBqmfMqyuF3zZ9SizGQe8L1
+                dxFSQXRmuf7yLKqJMJmn4Av8tAnMIFDIrQ/bpKQz0rIYmXjR43Nf5eSWXfc2F3bp
+                3C6p6s5D8Jdrbpffjve6KWbD8686BXBpIHLaY9ZuLcu9LQ/eWcSmlk0uK48IOfk=
+                -----END CERTIFICATE-----
+              clientKeySecret: "{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}"
+              id: "docker-cert"
+              scope: GLOBAL
+              serverCaCertificate: |-
+                -----BEGIN CERTIFICATE-----
+                MIIFEzCCAvugAwIBAgIUK46FSXCkTdGwKv5xV98L/OmJSIIwDQYJKoZIhvcNAQEL
+                BQAwGTEXMBUGA1UEAwwOZG9ja2VyOmRpbmQgQ0EwHhcNMjEwNDExMTM1NDIzWhcN
+                MjMwNzE1MTM1NDIzWjAZMRcwFQYDVQQDDA5kb2NrZXI6ZGluZCBDQTCCAiIwDQYJ
+                KoZIhvcNAQEBBQADggIPADCCAgoCggIBANX6hySUZSHi5GXu4//TzDeHKnGUpQ+E
+                SHaw7wZEsLYsSI20Lc6xMmIruDRBSqEE1Qw0VhLggpNvVAfQrnFdPHPGZguV5fra
+                xI38pulpwk16EZwcDbmPOJ8h9R3AKg//3II07rxAKmJ2KwSlMGUyfQvzUSegQp1H
+                bq0UMASq/YYsuJbFPXkmYkkoP8KRFiD3fpn+SK/HSZOs51LsJ7Gu1/Y2i7zqUDbt
+                GhjbynuEOGUPn5wNgEOnH2XdxeiFMRlJr+z1xEoXEdNw2+5mNS8XEW8WUqCqGMzv
+                /FcMWRYhij69W0SZrsHd9oG9APFxS+lGquAhHD8tWOYSRyNkTtKc8I6S56pjRm08
+                HFrD67AZCt7Sl0vWrBdGTtB/5t5P/hAiDXgEXIChz116g9gZD0KvmM21vDpi9EYd
+                sDdnIERzwcMUoVqi5wlxVKDWS45SlQt1aLAo/teGOOY4AR/voS/giBXoUyD/vuWy
+                DRUOAt9kZ35CwRsjqRDN2iIGPg+A25Av2QxjjljfxWu9cL0UYlzALO2uiadE3ttb
+                j7d+KdH83XM3Fnlsa2PipqA3a+IBTSXEqrdVLhdlpMsZ3Kt/fvMeEZ41/SHrmdMG
+                gQ1CvBy6gtXTHcSR6ckNk1JyDjSP8SoXGKWwVlJOUt7DJWsV2EEytpVftybcwKSC
+                IUer6zKbsBPFAgMBAAGjUzBRMB0GA1UdDgQWBBQ4JPJQOBwZSnZDNSO35a6MVmGr
+                IjAfBgNVHSMEGDAWgBQ4JPJQOBwZSnZDNSO35a6MVmGrIjAPBgNVHRMBAf8EBTAD
+                AQH/MA0GCSqGSIb3DQEBCwUAA4ICAQCTf+Xk5LrBEFv/8fR2mCUA6yexz1tR+wil
+                aBUqvl13KKwSiRBJL9sC/8DN3wXXXt3c0olyxNmSpaSIUnDFEmQ362HNeffJAH2z
+                GDUy2wY1o8m0ZKztmPJzyJFUKi5ZMbFnGEc3RuonROzbvfy6yX13OmCQR1QUj4R/
+                m0H26wfkdAZ067pOTzvYyYwezdVtE9e5U0iBCShPe9LQmP19vO8WjEslcaB2KLU/
+                baXpzTQZwKkttl2zSUJOYuBLLN/8MMWUNauUnDX+7pbZDnj/PsOsnHuSfMuaI8Id
+                U99xzzGy1xZShxYMQwY6xvA1SagORRb0gkXXj/cHaVN7VQEkGDVuRZh2tmNUVUtf
+                fKssiwEq5weUuSyUEVEAzm4ShpgOmXHA+Ey4pETTh491RlYCwXiG6khGpp7Hq0jo
+                hwRDft2EzITP3sfPgXd3Kn4MGXRyeF+T433MdEoK8VqlaPngpItS5kRCI13I0CDY
+                Kh/3c+Tyo/4xyG7DdGKaZVhLfWaJTPUFavOH82uneN6Ty4DuDekRX4IVKv/A0Acm
+                S8tLjOeK8oBU6g5/x1Ub9xylVN8Ium3rfSs+oPIS/dkF98yiCIPoPsVzFtkx8Rkv
+                3QOhBDJwj5fsZT2S1pQO2NWHkvcVDWJruDCxJBFLx1RC4Ik2xjcamcfpQpBpkzIq
+                bruOI5zvFA==
+                -----END CERTIFICATE-----
+jenkins:
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: ${JENKINS_ADMIN_ID}
+          password: ${jenkins_admin_password}
+#        - id: "dev"
+#          password: "dev"
+  authorizationStrategy:
+    globalMatrix:
+      permissions:
+#        - "Job/Build:dev"
+#        - "Job/Cancel:dev"
+#        - "Job/Read:dev"
+#        - "Job/Workspace:dev"
+        - "Overall/Administer:admin"
+        - "Overall/Read:authenticated"
+#        - "Run/Replay:dev"
+#        - "Run/Update:dev"
+  clouds:
+    - docker:
+        dockerApi:
+          connectTimeout: 60
+          dockerHost:
+            credentialsId: "docker-cert"
+            uri: "tcp://docker:2376"
+          readTimeout: 60
+        name: "docker"
+  remotingSecurity:
+    enabled: true
+security:
+  queueItemAuthenticator:
+    authenticators:
+      - global:
+          strategy: triggeringUsersAuthorizationStrategy
+unclassified:
+  location:
+    url: http://server_ip:8080/

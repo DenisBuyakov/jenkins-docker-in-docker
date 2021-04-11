@@ -1,0 +1,34 @@
+configuration-as-code: latest
+matrix-auth: latest
+authorize-project: latest
+docker: latest
+docker-workflow: latest
+blueocean: latest
+
+#kubernetes: latest
+#bouncycastle-api: latest
+#docker-plugin: latest
+#docker-build-step: latest
+#docker-commons: latest
+#docker-java-api: latest
+#docker-slaves: latest
+#
+#ant: latest
+#antisamy-markup-formatter: latest
+#build-timeout: latest
+#cloudbees-folder: latest
+#credentials-binding: latest
+#email-ext: latest
+#git: latest
+#github-branch-source: latest
+#gradle: latest
+#ldap: latest
+#mailer: latest
+#pam-auth: latest
+#pipeline-github-lib: latest
+#pipeline-stage-view: latest
+#ssh-slaves: latest
+#timestamper: latest
+#workflow-aggregator: latest
+#ws-cleanup: latest
+

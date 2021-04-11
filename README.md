@@ -1,37 +1,18 @@
 Installation 
 ------------
-1. Install [Docker](https://docker.com)  
-   (ubuntu option)[Install for ubuntu](https://docs.docker.com/engine/install/ubuntu/)
-   ```bash
-   sudo apt-get update
-   sudo apt-get upgrade
-   sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
-   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-   echo \
-   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-   sudo apt-get update
-   sudo apt-get install docker-ce docker-ce-cli containerd.io
-   sudo systemctl status docker
-   ```
-   (ubuntu option) install docker-compose 
-    ```bash
-   cd docker
-   sudo curl -L "https://github.com/docker/compose/releases/download/1.29.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
-   sudo chmod +x /usr/bin/docker-compose
-    ```
-2. Install [Git](https://git-scm.com/downloads)
-3. copy use git
+1. Install [Git](https://git-scm.com/downloads)
+2. copy use git
    ```bash
    git clone https://github.com/DenisBuyakov/jenkins-docker-in-docker.git
    cd jenkins-docker-in-docker/
     ```
-4. install jenkins
+1. Install [Docker](https://docker.com)  
+   (ubuntu option)[Install for ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+   ```bash
+   sudo ./install-docker
+   sudo systemctl status docker
+   ```
+3. install jenkins
    (optional local) use docker env
     ```bash
    cd docker
@@ -44,8 +25,8 @@ Installation
    ```bash
    sudo docker exec jenkins-blueocean cat /var/jenkins_home/secrets/initialAdminPassword
    ```
-5. install "docker" plugin and "Docker Pipeline"
-6. (aws ubuntu option)swap enable
+4. install "docker" plugin and "Docker Pipeline"
+5. (aws ubuntu option)swap enable
    ```bash
    sudo dd if=/dev/zero of=/swapfile bs=128M count=16
    sudo chmod 600 /swapfile
@@ -53,6 +34,9 @@ Installation
    sudo swapon /swapfile
    sudo swapon -s
    sudo nano /etc/fstab
+   sudo awk ... /etc/fstab > /tmp/$$
+   sudo cat /tmp/$$ > /etc/fstab
+   sudo rm /tmp/$$
     ```
    Add the following new line at the end of the file, save the file, and then exit:
    ```bash
